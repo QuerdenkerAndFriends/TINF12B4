@@ -1,0 +1,19 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName DhBw
+
+    SetEnv BEONTRA_ENV vm
+
+    DocumentRoot /var/www/Pattern/pub
+    <Directory /var/www>
+            Options Indexes FollowSymLinks MultiViews
+            AllowOverride All
+            Order allow,deny
+            allow from all
+    </Directory>
+
+    ErrorLog /vagrant/log/default_error.log
+    LogLevel warn
+
+    CustomLog /vagrant/log/default_access.log combined
+</VirtualHost>

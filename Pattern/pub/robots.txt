@@ -1,0 +1,3 @@
+# Block whole site for all robots
+User-agent: *
+Disallow: /
