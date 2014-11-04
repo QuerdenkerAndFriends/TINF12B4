@@ -41,4 +41,12 @@ class Response
         $this->body = $body;
     }
 
+    /**
+     * @return string
+     */
+    public function getBody()
+    {
+        return $this->body;
+    }
+
 }

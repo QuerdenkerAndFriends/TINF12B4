@@ -34,8 +34,8 @@ class Request
     {
         $request = new Request();
         $request->setUrl($_SERVER['REQUEST_URI']);
-        $request->getGetParameter()->initFromArray($_GET);
-        $request->getPostParameter()->initFromArray($_POST);
+        $request->getGetParameters()->initFromArray($_GET);
+        $request->getPostParameters()->initFromArray($_POST);
 
         return $request;
     }
@@ -61,7 +61,7 @@ class Request
     /**
      * @return ArrayCollection
      */
-    public function getGetParameter()
+    public function getGetParameters()
     {
         return $this->getParameter;
     }
@@ -69,10 +69,9 @@ class Request
     /**
      * @return ArrayCollection
      */
-    public function getPostParameter()
+    public function getPostParameters()
     {
         return $this->postParameter;
     }
-
 
 }
