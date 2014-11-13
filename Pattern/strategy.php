@@ -6,11 +6,11 @@ use DhBw\Pattern\Behavioral\Strategy\ArrayCollection;
 use DhBw\Pattern\Behavioral\Strategy\PhpSorter;
 use DhBw\Pattern\Behavioral\Strategy\BubbleSorter;
 
-require_once 'lib/DhBw/Util/ClassLoader.php';
+require_once 'DhBw/Util/ClassLoader.php';
 
 
 $classLoader = new ClassLoader('DhBw');
-$classLoader->setIncludePath('lib');
+$classLoader->setIncludePath('.');
 $classLoader->register();
 
 $console = new Console();

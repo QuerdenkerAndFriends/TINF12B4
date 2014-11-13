@@ -4,11 +4,11 @@ use DhBw\Util\ClassLoader;
 use \DhBw\Pattern\Behavioral\State\Bestellung;
 use \DhBw\Util\Console;
 
-require_once 'lib/DhBw/Util/ClassLoader.php';
+require_once 'DhBw/Util/ClassLoader.php';
 
 
 $classLoader = new ClassLoader('DhBw');
-$classLoader->setIncludePath('lib');
+$classLoader->setIncludePath('.');
 $classLoader->register();
 
 $console = new Console();

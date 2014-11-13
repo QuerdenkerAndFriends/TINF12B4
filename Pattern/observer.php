@@ -8,11 +8,11 @@ use \DhBw\Pattern\Behavioral\Observer\ConcreteMeasurementSubject;
 use \DhBw\Pattern\Behavioral\Observer\Point;
 
 
-require_once 'lib/DhBw/Util/ClassLoader.php';
+require_once 'DhBw/Util/ClassLoader.php';
 
 
 $classLoader = new ClassLoader('DhBw');
-$classLoader->setIncludePath('lib');
+$classLoader->setIncludePath('.');
 $classLoader->register();
 
 $console = new Console();
