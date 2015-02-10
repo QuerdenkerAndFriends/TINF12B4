@@ -1,7 +1,7 @@
 <?php
 
 use DhBw\Util\ClassLoader;
-use \DhBw\Util\Console;
+use DhBw\Util\Console;
 use DhBw\Pattern\Behavioral\Strategy\ArrayCollection;
 use DhBw\Pattern\Behavioral\Strategy\PhpSorter;
 use DhBw\Pattern\Behavioral\Strategy\BubbleSorter;

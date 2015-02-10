@@ -1,11 +1,11 @@
 <?php
 
 use DhBw\Util\ClassLoader;
-use \DhBw\Util\Console;
-use \DhBw\Pattern\Behavioral\Observer\ConcreteMeasurementObserverA;
-use \DhBw\Pattern\Behavioral\Observer\ConcreteMeasurementObserverB;
-use \DhBw\Pattern\Behavioral\Observer\ConcreteMeasurementSubject;
-use \DhBw\Pattern\Behavioral\Observer\Point;
+use DhBw\Util\Console;
+use DhBw\Pattern\Behavioral\Observer\ConcreteMeasurementObserverA;
+use DhBw\Pattern\Behavioral\Observer\ConcreteMeasurementObserverB;
+use DhBw\Pattern\Behavioral\Observer\ConcreteMeasurementSubject;
+use DhBw\Pattern\Behavioral\Observer\Point;
 
 
 require_once 'DhBw/Util/ClassLoader.php';

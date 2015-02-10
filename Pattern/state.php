@@ -1,8 +1,8 @@
 <?php
 
 use DhBw\Util\ClassLoader;
-use \DhBw\Pattern\Behavioral\State\Bestellung;
-use \DhBw\Util\Console;
+use DhBw\Pattern\Behavioral\State\Bestellung;
+use DhBw\Util\Console;
 
 require_once 'DhBw/Util/ClassLoader.php';
 

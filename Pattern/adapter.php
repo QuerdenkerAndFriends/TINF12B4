@@ -1,7 +1,7 @@
 <?php
 
 use DhBw\Util\ClassLoader;
-use \DhBw\Util\Console;
+use DhBw\Util\Console;
 use DhBw\Pattern\Structural\Adapter\Socket;
 use DhBw\Pattern\Structural\Adapter\Plug;
 use DhBw\Pattern\Structural\Adapter\LegacyPlug;
