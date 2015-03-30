@@ -19,7 +19,6 @@ class BinController implements ControllerInterface
     public function execute(Request $request)
     {
         $renderer = new Renderer();
-        $renderer->viewArghuments['kontakte'] = 42;
         $body = $renderer->render('../src/MyApp/MyModule/View/bin.php');
 
         $response = new Response();
